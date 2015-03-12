@@ -1,0 +1,23 @@
+{
+  "name": "wap",
+  "version": "0.0.1",
+  "description": "Web Application Portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtn70/wap.git"
+  },
+  "author": "Jens Torgeir Næss <jtn70@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtn70/wap/issues"
+  },
+  "homepage": "https://github.com/jtn70/wap",
+  "dependencies": {
+    "express": "^4.12.2",
+    "node-redis": "^0.1.7"
+  }
+}
