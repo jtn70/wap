@@ -1,2 +1,6 @@
 # wap
-Web Application Portal
+Web Application Portal 
+
+A web application portal written in Node.js.
+
+
