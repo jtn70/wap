@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=viewport content=width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
+    <title>Web Application Portal</title>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="bower_components/font-roboto/roboto.html">
+    <link rel="import" href="bower_components/core-header-panel/core-header-panel.html">
+    <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import" href="bower_components/paper-menu-button/paper-menu-button.html">
+    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="bower_components/paper-dropdown/paper-dropdown.html">
+    <link rel="import" href="bower_components/core-menu/core-menu.html">
+    <link rel="import" href="bower_components/paper-item/paper-item.html">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body fullbleed vertical layout unresolved>
+    <core-header-panel flex>
+        <core-toolbar id "mainheader">
+            <span flex>Web Application Portal</span>
+            <paper-menu-button>
+                <paper-icon-button id="menubutton" icon="menu" noink></paper-icon-button>
+                <paper-dropdown class="dropdown" halign="right">
+                    <core-menu class="menu">
+                        <paper-item>Help</paper-item>
+                        <paper-item>Items</paper-item>
+                        <paper-item>Users</paper-item>
+                        <paper-item>About</paper-item>
+                    </core-menu>
+                </paper-dropdown>
+            </paper-menu-button>
+        </core-toolbar>
+    </core-header-panel>
+</body>
+</html>
